@@ -145,7 +145,6 @@
 				4A6DF2280FFC63CC78D1F439 /* Pods-LogisticApp-LogisticAppTests.debug.xcconfig */,
 				52C91B26980BF7A3262EB2F8 /* Pods-LogisticApp-LogisticAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

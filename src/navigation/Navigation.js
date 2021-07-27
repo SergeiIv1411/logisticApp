@@ -14,9 +14,10 @@ function HomeScreen() {
 }
 
 const RootStack = () => {
+  return(
   <Stack.Navigator>
     <Stack.Screen name="Home" component={HomeScreen} />
-  </Stack.Navigator>;
+  </Stack.Navigator>);
 };
 
 export default function Navigation() {
