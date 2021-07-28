@@ -3,27 +3,17 @@ import { View, Text, Button, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/core';
 import * as routes from '../navigation/routes';
 
-const HomeScreen = () => {
-    const navigationBarCode = useNavigation();
-    const onBarcodePress = () => {
-        navigationBarCode.push(routes.NAVIGATION_BARCODESCANER_ROUTE);
-    };
-
+const BarcodeScreen = () => {
     return (
         <View style={styles.container}>
-            <TouchableOpacity
-                style={styles.shadow}
-                onPress={onBarcodePress}
-            >
-                <View style={styles.button}>
-                    <Text style={styles.button_text}>Сканировать штрихкод</Text>
-                </View>
-            </TouchableOpacity>
+            <Text>
+                Сканер штрихкодов
+            </Text>
         </View>
     );
 }
 
-export default HomeScreen;
+export default BarcodeScreen;
 
 const styles = StyleSheet.create({
     container: {
