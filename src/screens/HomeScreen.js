@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         fontStyle: 'italic',
     },
     shadow: {
-        shadowColor: '#7F5DF0',
+        shadowColor: '#513855',
         shadowOffset: {
             width: 0,
             height: 10,
